@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Peafowl</key>
+	<string>peafowl.jpg</string>
+	<key>Swan</key>
+	<string>swan</string>
+	<key>Fox</key>
+	<string>fox</string>
+	<key>Hawk</key>
+	<string>hawk.jpg</string>
+	<key>Mouse</key>
+	<string>mouse</string>
+	<key>Bear</key>
+	<string>bear</string>
+	<key>Buffalo</key>
+	<string>buffalo.jpg</string>
+	<key>Fish</key>
+	<string>fish</string>
+	<key>Turtle</key>
+	<string>turtle</string>
+	<key>Duck</key>
+	<string>duck</string>
+	<key>Bird</key>
+	<string>bird</string>
+	<key>Lion</key>
+	<string>lion.jpg</string>
+	<key>Tiger</key>
+	<string>tiger.jpg</string>
+	<key>Cat</key>
+	<string>cat.jpg</string>
+	<key>Dog</key>
+	<string>dog</string>
+	<key>Bat</key>
+	<string>bat.jpg</string>
+	<key>Deer</key>
+	<string>deer.jpg</string>
+	<key>Ant</key>
+	<string>ant</string>
+	<key>Bee</key>
+	<string>bee</string>
+	<key>Butterfly</key>
+	<string>butterfly</string>
+	<key>Fly</key>
+	<string>fly.jpg</string>
+	<key>Spider</key>
+	<string>spider</string>
+	<key>Mosquito</key>
+	<string>mosquito.jpg</string>
+	<key>Frog</key>
+	<string>frog</string>
+	<key>Snake</key>
+	<string>snake</string>
+	<key>Crab</key>
+	<string>crab</string>
+	<key>Snail</key>
+	<string>snail</string>
+</dict>
+</plist>

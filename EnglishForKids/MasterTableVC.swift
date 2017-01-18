@@ -10,7 +10,7 @@ import UIKit
 
 class MasterTableVC: UITableViewController {
     
-    var dictList = ["Fruits": "fruits", "Animals": "animals.jpeg", "Trees": "trees.jpg", "Persons": "persons.jpg"]
+    var dictList = ["Fruits": "fruits", "Animals": "animals.jpeg", "Trees": "trees.png", "Persons": "persons.png"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,6 +42,15 @@ class MasterTableVC: UITableViewController {
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 70.0
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showDetail" {
+            let detailVC = segue.destination as! DetailVC
+            let selectedRowIndex: NSIndexPath = self.tableView.indexPathForSelectedRow! as NSIndexPath
+            let selectedCell: UITableViewCell = self.tableView.cellForRow(at: selectedRowIndex as IndexPath)!
+            detailVC.stringTitle = selectedCell.textLabel?.text
+        }
     }
     
 }
